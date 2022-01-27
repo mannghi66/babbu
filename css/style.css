@@ -1,0 +1,49 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+button:focus {
+    box-shadow: none !important;
+}
+.buttonYellow {
+    background: rgba(255, 224, 0, 1);
+    border-radius: 8px;
+}
+.brownText {
+    color: rgba(152, 121, 92, 1);
+}
+.browndarkText {
+    color: rgba(71, 19, 26, 1);
+}
+.bgGray {
+    background: rgba(247, 247, 247, 1);
+    border-radius: 16px;
+    padding: 30px;
+}
+.progress {
+    border-radius: 1.25rem;
+}
+.progress-bar {
+    background-color: rgba(15, 213, 69, 1);
+    border-radius: 1.25rem;
+}
+a:focus {
+    box-shadow: none !important;
+}
+.amountText {
+    background: #EBE8E2;
+    padding: 1px 13px;
+    border-radius: 16px;
+}
+.tutorialText {
+    background: #FDF1CC;
+    padding: 1px 13px;
+    border-radius: 16px;
+}
+.submitTask {
+    background: #FFE000;
+    color: #47131A;
+    padding: 10px 255px;
+    font-weight: 500;
+    border-radius: 12px;
+}
