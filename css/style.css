@@ -47,3 +47,23 @@ a:focus {
     font-weight: 500;
     border-radius: 12px;
 }
+.bgYellow {
+    border-radius: 16px;
+    padding: 30px;
+    background: #FFE000;
+}
+.bgBrown {
+    color: #fff;
+    background: #47131A;
+    padding: 1px 13px;
+    border-radius: 16px;
+}
+h5 {
+    margin-bottom: 0.01rem !important; 
+}
+.pdicon {
+    padding: 10px;
+}
+.pdOffical {
+    padding: 18px;
+}
