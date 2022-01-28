@@ -43,7 +43,7 @@ a:focus {
 .submitTask {
     background: #FFE000;
     color: #47131A;
-    padding: 10px 255px;
+    width: 100%;
     font-weight: 500;
     border-radius: 12px;
 }
