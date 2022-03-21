@@ -2,44 +2,55 @@ a {
     color: #000;
     text-decoration: none;
 }
+
 button:focus {
     box-shadow: none !important;
 }
+
 .buttonYellow {
     background: rgba(255, 224, 0, 1);
     border-radius: 8px;
 }
+
 .brownText {
     color: rgba(152, 121, 92, 1);
 }
+
 .browndarkText {
-    color: rgba(71, 19, 26, 1);
+    color: #47131A !important;
 }
+
 .bgGray {
     background: rgba(247, 247, 247, 1);
     border-radius: 16px;
     padding: 30px;
 }
+
 .progress {
     border-radius: 1.25rem;
 }
+
 .progress-bar {
     background-color: rgba(15, 213, 69, 1);
     border-radius: 1.25rem;
 }
+
 a:focus {
     box-shadow: none !important;
 }
+
 .amountText {
     background: #EBE8E2;
     padding: 1px 13px;
     border-radius: 16px;
 }
+
 .tutorialText {
     background: #FDF1CC;
     padding: 1px 13px;
     border-radius: 16px;
 }
+
 .submitTask {
     background: #FFE000;
     color: #47131A;
@@ -47,23 +58,169 @@ a:focus {
     font-weight: 500;
     border-radius: 12px;
 }
+
 .bgYellow {
     border-radius: 16px;
     padding: 30px;
     background: #FFE000;
 }
+
 .bgBrown {
     color: #fff;
     background: #47131A;
     padding: 1px 13px;
     border-radius: 16px;
 }
+
 h5 {
-    margin-bottom: 0.01rem !important; 
+    margin-bottom: 0.01rem !important;
 }
+
 .pdicon {
     padding: 10px;
 }
+
 .pdOffical {
     padding: 18px;
+}
+
+.bgGreen {
+    color: white;
+    background: #0FD545;
+    border-radius: 20px;
+    padding: 1px 8px;
+    font-size: 11px;
+}
+
+ul li i {
+    background: #47131A;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.whiteText {
+    color: #fff;
+}
+
+.nav-pills .nav-link {
+    border-radius: 8px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #FFE000;
+    color: #47131A;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #47131A;
+}
+
+.nav {
+    background: #EBE8E2;
+    border-radius: 12px;
+    padding: 4px;
+    width: 53.6%;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #47131A;
+}
+
+.bglightY {
+    background: #FFFAD9;
+    color: #47131A;
+    border-radius: 10px;
+}
+
+.bgPink {
+    background: #FAE1E0;
+    border-radius: 16px;
+}
+
+.bgOrange {
+    background: #FDF1CC;
+    border-radius: 16px;
+}
+
+.bglightG {
+    background: #F0F8DB;
+    border-radius: 16px;
+}
+
+.bgPurple {
+    background: #EAE9FD;
+    border-radius: 16px;
+}
+
+.bgBlue {
+    background: #EDF8FE;
+    border-radius: 16px;
+}
+
+.bglightYe {
+    background: #FFFAD9;
+}
+
+.list-unstyled .bglightYe {
+    border-radius: 8px;
+}
+
+.tag {
+    text-align: center;
+    background-color: #FC346D;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 7px;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid #FC346D;
+    margin-right: -5px;
+}
+
+.bgY {
+    background: #FFE000;
+}
+
+.arrowY {
+    border-right: 4px solid #FFE000;
+}
+
+.bgP {
+    background: #4E2CB2;
+}
+
+.arrowP {
+    border-right: 4px solid #4E2CB2;
+}
+
+
+/* submenuKingdex */
+
+.accordion-body>ul li {
+    list-style: none;
+}
+
+.accordion-header>span {
+    font-size: 20px;
+    line-height: 52px;
+    margin-left: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-button {
+    width: 55px;
+    float: right;
 }
