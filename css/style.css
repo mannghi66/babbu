@@ -169,26 +169,36 @@ ul li i {
     border-radius: 8px;
 }
 
-.tag {
-    text-align: center;
+.arrow {
     background-color: #FC346D;
     border-radius: 3px;
     color: #fff;
     font-size: 12px;
     padding: 0 7px;
+    position: relative;
 }
 
-.arrow-left {
+.arrow::before {
+    content: '';
+    position: absolute;
     width: 0;
     height: 0;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
+    padding: 0;
+    top: 4px;
+    left: -4px;
+    border: 0 solid transparent;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
     border-right: 4px solid #FC346D;
-    margin-right: -5px;
 }
 
 .bgY {
     background: #FFE000;
+}
+
+.yelo :hover {
+    background: #FFE000;
+    border-radius: 8px;
 }
 
 .arrowY {
@@ -201,6 +211,19 @@ ul li i {
 
 .arrowP {
     border-right: 4px solid #4E2CB2;
+}
+
+.card {
+    border: none;
+    background-color: #FFFAD9;
+}
+
+.bgG {
+    background: #EBE8E2;
+}
+
+.arrowG {
+    border-right: 4px solid #EBE8E2;
 }
 
 

@@ -17,88 +17,159 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light border-bottom">
             <div class="container">
-                <img src="img/logo.png" alt="">
+                <img src="img/logo.png" alt="" class="mb-2">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
                         <li class="nav-item d-flex">
-                            <h2 class="fw-bold browndarkText">BABBU</h2>
+                            <h2 class="fw-bold browndarkText p-2">BABBU</h2>
                         </li>
                         <li class="nav-item">
-                            <span class="bgGreen">1.0</span>
+                            <p class="bgGreen mt-3">1.0</p>
                         </li>
-                        <li class="ms-4">
-                            <i class="fa-solid fa-arrow-down whiteText"></i>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="me-2">
+                            <img src="img/download.png" alt="">
                         </li>
                         <li class="nav-item me-4">
-                            <b class="browndarkText">App download</b>
+                            <strong class="browndarkText">App download</strong>
                         </li>
-                        <li class="nav-item"><img src="img/logomini.png" alt=""></li>
-                        <li class="nav-item browndarkText">
-                            <b class="browndarkText">$12.848</b>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="me-2">
+                            <img src="img/logomini.png" alt="">
+                        </li>
+                        <li class="nav-item me-4">
+                            <strong class="browndarkText">$12.848</strong>
                         </li>
                     </ul>
                     </ul>
-                    <form class="d-flex">
+                    <div class="d-flex">
                         <a href="" class="btn buttonYellow fw-bold me-4">Connect Wallet</a>
                         <img src="img/america.png" alt="">
-                    </form>
+                    </div>
                 </div>
+
             </div>
         </nav>
     </header>
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-3 border-end">
-                    <ul class="list-unstyled browndarkText">
+                <div class="col-md-3 border-end pt-4">
+                    <ul class="list-unstyled browndarkText yelo">
                         <li class="bglightYe p-3">
-                            <img src="img/home.png" alt="">
-                            <b class="p-2">Home</b>
+                            <a href="">
+                                <img src="img/home.png" alt="">
+                                <strong class="p-2">Home</strong>
+                            </a>
+
                         </li>
                         <li class="p-3">
-                            <img src="img/buy.png" alt="">
-                            <b class="p-2">Buy $BABU</b>
+                            <a href="">
+                                <img src="img/buy.png" alt="">
+                                <strong class="p-2">Buy $BABU</strong>
+                            </a>
+
                         </li>
                         <li class="p-3">
-                            <img src="img/nft.png" alt="">
-                            <b class="p-2">NFT Mining</b>
+                            <a href="">
+                                <img src="img/nft.png" alt="">
+                                <strong class="p-2">NFT Mining</strong>
+                            </a>
+                        </li>
+                        <li class="p-3 menuR">
+                            <a href="">
+                                <img src="img/farms.png" alt="">
+                                <strong class="p-2">Farms</strong>
+                                <strong class="arrow">HOT</strong>
+                            </a>
+
+
                         </li>
                         <li class="p-3">
-                            <img src="img/farms.png" alt="">
-                            <b class="p-2">Farms</b>
-                            <div class="d-inline-block arrow-left "></div>
-                            <b class="tag">HOT</b>
+                            <a href="">
+                                <img src="img/nftMarket.png" alt="">
+                                <strong class="p-2">NFT Market</strong>
+                            </a>
+
                         </li>
                         <li class="p-3">
-                            <img src="img/nftMarket.png" alt="">
-                            <b class="p-2">NFT Market</b>
+                            <a href="">
+                                <img src="img/game.png" alt="">
+                                <strong class="p-2">Gamebase</strong>
+                                <div class="d-inline-block arrow-left arrowY"></div>
+                                <strong class="tag bgY browndarkText">NEW</strong>
+                            </a>
+
                         </li>
                         <li class="p-3">
-                            <img src="img/game.png" alt="">
-                            <b class="p-2">Gamebase</b>
-                            <div class="d-inline-block arrow-left arrowY"></div>
-                            <b class="tag bgY browndarkText">NEW</b>
-                        </li>
-                        <li class="p-3">
-                            <img src="img/blindBox.png" alt="">
-                            <b class="p-2">BLIND BOX</b>
-                            <div class="d-inline-block arrow-left arrowP"></div>
-                            <b class="tag bgP">OPEN</b>
+                            <a href="">
+                                <img src="img/blindBox.png" alt="">
+                                <strong class="p-2">BLIND BOX</strong>
+                                <div class="d-inline-block arrow-left arrowP"></div>
+                                <strong class="tag bgP">OPEN</strong>
+                            </a>
                         </li>
                         <li class="p-2">
-                            <img src="img/logomini.png" alt="">
-                            <b class="">Babbu NFT</b>
+                            <img src="img/logomini.png" alt="" class="mb-2 ms-1">
+                            <strong class="p-1">Babbu NFT</strong>
+                            <img src="img/arrow.png" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    <p>Babbu NFT List</p>
+                                    <p>NFT Mint</p>
+                                </div>
+                            </div>
                         </li>
+                        <li class="p-3">
+                            <a href="">
+                                <img src="img/earn.png" alt="">
+                                <strong class="p-2">Earn Together</strong>
+                            </a>
+                        </li>
+                        <li class="p-3">
+                            <a href="">
+                                <img src="img/guide.png" alt="">
+                                <strong class="p-2">Guide</strong>
+                                <div class="d-inline-block arrow-left arrowG"></div>
+                                <strong class="tag bgG browndarkText">COMING SOON</strong>
+                            </a>
+                        </li>
+                        <li class="p-3">
+                            <a href=""><img src="img/community.png" alt="">
+                                <strong class="p-2">Community</strong></a>
+                        </li>
+                        <li class="p-3">
+                            <a href="">
+                                <img src="img/help.png" alt="">
+                                <strong class="p-2">Help Center</strong>
+                            </a>
+                        </li>
+                        <li class="p-3">
+                            <a href="">
+                                <img src="img/download.png" alt="">
+                                <strong class="p-2">About BABBU</strong>
+                            </a>
 
+                        </li>
+                        <li class="p-3">
+                            <a href="">
+                                <img src="img/download.png" alt="">
+                                <strong class="p-2">App Download</strong>
+                            </a>
+
+                        </li>
                     </ul>
+                    <img src="img/babbuB.png" alt="" class="float-end">
                 </div>
-                <div class="col-md-9">
-                    <div class="d-flex justify-content-around buttonYellow mt-4">
+                <div class="col-md-9 pt-4">
+                    <div class="d-flex justify-content-around buttonYellow">
                         <div class="text-center">
-                            <h4 class="pt-2">$1,692,024,879</h4>
+                            <h4 class="pt-2 bright">$1,692,024,879</h4>
                             <p class="">Total Market Value </p>
                         </div>
                         <div class="text-center">
@@ -114,16 +185,16 @@
                     <p class="brownText">Use BNB/BABU to draw Babbu NFT, Friends Card, Crystal</p>
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-babbufamily-tab" data-bs-toggle="pill" data-bs-target="#pills-babbufamily" type="button" role="tab" aria-controls="pills-babbufamily" aria-selected="true">Babbu Family</button>
+                            <strongutton class="nav-link active" id="pills-babbufamily-tab" data-bs-toggle="pill" data-bs-target="#pills-babbufamily" type="button" role="tab" aria-controls="pills-babbufamily" aria-selected="true">Babbu Family</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-friendscard-tab" data-bs-toggle="pill" data-bs-target="#pills-friendscard" type="button" role="tab" aria-controls="pills-friendscard" aria-selected="false">Friends Card</button>
+                            <strongutton class="nav-link" id="pills-friendscard-tab" data-bs-toggle="pill" data-bs-target="#pills-friendscard" type="button" role="tab" aria-controls="pills-friendscard" aria-selected="false">Friends Card</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-crystalstone-tab" data-bs-toggle="pill" data-bs-target="#pills-crystalstone" type="button" role="tab" aria-controls="pills-crystalstone" aria-selected="false">Crystal Stone</button>
+                            <strongutton class="nav-link" id="pills-crystalstone-tab" data-bs-toggle="pill" data-bs-target="#pills-crystalstone" type="button" role="tab" aria-controls="pills-crystalstone" aria-selected="false">Crystal Stone</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-specialedition-tab" data-bs-toggle="pill" data-bs-target="#pills-specialedition" type="button" role="tab" aria-controls="pills-specialedition" aria-selected="false">Special Edition</button>
+                            <strongutton class="nav-link" id="pills-specialedition-tab" data-bs-toggle="pill" data-bs-target="#pills-specialedition" type="button" role="tab" aria-controls="pills-specialedition" aria-selected="false">Special Edition</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
@@ -172,22 +243,22 @@
 
                         </div>
                         <div class="tab-pane fade" id="pills-friendscard" role="tabpanel" aria-labelledby="pills-friendscard-tab">
+                            <div class="d-flex justify-content-between p-4 bgOrange mb-3">
+                                <div>
+                                    <span class="bglightY p-2">Phase 1</span>
+                                    <h4 class="mt-4">Babbu Explorer</h4>
+                                    <span class="browndarkText">Coming soon</span>
+                                </div>
+                                <div><img src="img/chestclose.png" alt=""></div>
+                            </div>
                             <div class="d-flex justify-content-between p-4 bgPink mb-3">
                                 <div>
-                                    <span class="bglightY p-2">Phase 1: Dec-16 12:00 PM +UTC</span>
+                                    <span class="bglightY p-2">Phase 2: Dec-16 12:00 PM +UTC</span>
                                     <h4 class="mt-4">Babbu Welcome</h4>
                                     <span class="browndarkText">Start time:</span>
                                     <strong class="fs-5 browndarkText">DD : HH : MM : SS</strong>
                                 </div>
                                 <div><img src="img/greenB.png" alt=""></div>
-                            </div>
-                            <div class="d-flex justify-content-between p-4 bgOrange mb-3">
-                                <div>
-                                    <span class="bglightY p-2">Phase 2</span>
-                                    <h4 class="mt-4">Babbu Explorer</h4>
-                                    <span class="browndarkText">Coming soon</span>
-                                </div>
-                                <div><img src="img/chestclose.png" alt=""></div>
                             </div>
                             <div class="d-flex justify-content-between p-4 bglightG mb-3">
                                 <div>
@@ -215,18 +286,9 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-crystalstone" role="tabpanel" aria-labelledby="pills-crystalstone-tab">
-                            <div class="d-flex justify-content-between p-4 bgPink mb-3">
-                                <div>
-                                    <span class="bglightY p-2">Phase 1: Dec-16 12:00 PM +UTC</span>
-                                    <h4 class="mt-4">Babbu Welcome</h4>
-                                    <span class="browndarkText">Start time:</span>
-                                    <strong class="fs-5 browndarkText">DD : HH : MM : SS</strong>
-                                </div>
-                                <div><img src="img/greenB.png" alt=""></div>
-                            </div>
                             <div class="d-flex justify-content-between p-4 bgOrange mb-3">
                                 <div>
-                                    <span class="bglightY p-2">Phase 2</span>
+                                    <span class="bglightY p-2">Phase 1</span>
                                     <h4 class="mt-4">Babbu Explorer</h4>
                                     <span class="browndarkText">Coming soon</span>
                                 </div>
@@ -234,11 +296,20 @@
                             </div>
                             <div class="d-flex justify-content-between p-4 bglightG mb-3">
                                 <div>
-                                    <span class="bglightY p-2">Phase 3</span>
+                                    <span class="bglightY p-2">Phase 2</span>
                                     <h4 class="mt-4">Babbu City Build</h4>
                                     <span class="browndarkText">Coming soon</span>
                                 </div>
                                 <div><img src="img/chestclose.png" alt=""></div>
+                            </div>
+                            <div class="d-flex justify-content-between p-4 bgPink mb-3">
+                                <div>
+                                    <span class="bglightY p-2">Phase 3: Dec-16 12:00 PM +UTC</span>
+                                    <h4 class="mt-4">Babbu Welcome</h4>
+                                    <span class="browndarkText">Start time:</span>
+                                    <strong class="fs-5 browndarkText">DD : HH : MM : SS</strong>
+                                </div>
+                                <div><img src="img/greenB.png" alt=""></div>
                             </div>
                             <div class="d-flex justify-content-between p-4 bgPurple mb-3">
                                 <div>
@@ -258,18 +329,9 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-specialedition" role="tabpanel" aria-labelledby="pills-specialedition-tab">
-                            <div class="d-flex justify-content-between p-4 bgPink mb-3">
-                                <div>
-                                    <span class="bglightY p-2">Phase 1: Dec-16 12:00 PM +UTC</span>
-                                    <h4 class="mt-4">Babbu Welcome</h4>
-                                    <span class="browndarkText">Start time:</span>
-                                    <strong class="fs-5 browndarkText">DD : HH : MM : SS</strong>
-                                </div>
-                                <div><img src="img/greenB.png" alt=""></div>
-                            </div>
                             <div class="d-flex justify-content-between p-4 bgOrange mb-3">
                                 <div>
-                                    <span class="bglightY p-2">Phase 2</span>
+                                    <span class="bglightY p-2">Phase 1</span>
                                     <h4 class="mt-4">Babbu Explorer</h4>
                                     <span class="browndarkText">Coming soon</span>
                                 </div>
@@ -277,7 +339,7 @@
                             </div>
                             <div class="d-flex justify-content-between p-4 bglightG mb-3">
                                 <div>
-                                    <span class="bglightY p-2">Phase 3</span>
+                                    <span class="bglightY p-2">Phase 2</span>
                                     <h4 class="mt-4">Babbu City Build</h4>
                                     <span class="browndarkText">Coming soon</span>
                                 </div>
@@ -285,11 +347,20 @@
                             </div>
                             <div class="d-flex justify-content-between p-4 bgPurple mb-3">
                                 <div>
-                                    <span class="bglightY p-2">Phase 4</span>
+                                    <span class="bglightY p-2">Phase 3</span>
                                     <h4 class="mt-4">Babbu Explorer</h4>
                                     <span class="browndarkText">Coming soon</span>
                                 </div>
                                 <div><img src="img/chestclose.png" alt=""></div>
+                            </div>
+                            <div class="d-flex justify-content-between p-4 bgPink mb-3">
+                                <div>
+                                    <span class="bglightY p-2">Phase 4: Dec-16 12:00 PM +UTC</span>
+                                    <h4 class="mt-4">Babbu Welcome</h4>
+                                    <span class="browndarkText">Start time:</span>
+                                    <strong class="fs-5 browndarkText">DD : HH : MM : SS</strong>
+                                </div>
+                                <div><img src="img/greenB.png" alt=""></div>
                             </div>
                             <div class="d-flex justify-content-between p-4 bgBlue mb-3">
                                 <div>
